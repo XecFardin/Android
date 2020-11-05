@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddPersonFrag">
+
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:autofillHints="@string/enter_person_name"
+        android:ems="10"
+        android:hint="@string/enter_person_name"
+        android:inputType="textPersonName"
+        android:textColorHint="#D83F0F" />
+
+    <EditText
+        android:id="@+id/etphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:autofillHints="@string/enter_person_phone_number"
+        android:ems="10"
+        android:hint="@string/enter_person_phone_number"
+        android:inputType="phone"
+        android:textColorHint="#FF5722" />
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#FFC107"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/add_person"
+        android:textColor="#1B1919"
+        android:textColorHint="#D82727" />
+</LinearLayout>
