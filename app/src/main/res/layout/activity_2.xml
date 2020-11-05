@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity2">
+
+    <EditText
+        android:id="@+id/etSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:autofillHints="Plsease enter your surname\"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/please_enter_your_surname"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="#3F51B5"
+        android:text="@string/submit"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btncancle"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="0dp"
+        android:background="#3F51B5"
+        android:text="@string/cancle"
+        android:textColor="#FFFFFF"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="0dp" />
+</LinearLayout>

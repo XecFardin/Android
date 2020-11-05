@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Explicit intend</string>
+    <string name="name">please enter your name</string>
+    <string name="Act1">Activity 1</string>
+    <string name="Act2">ACTIVITY 2</string>
+    <string name="result">data from activiity 3 will be displayed</string>
+    <string name="please_enter_your_surname">Please enter your surname</string>
+    <string name="submit">Submit</string>
+    <string name="welcome_to_activity_1">Welcome to Activity 1</string>
+    <string name="cancle">cancle</string>
+    <string name="bb">, welcome to Activity 1!</string>
+    <string name="string">No data received</string>
+</resources>
