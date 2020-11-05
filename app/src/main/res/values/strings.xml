@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">contact</string>
+    <string name="contacts_app">contacts App</string>
+    <string name="create_new_contact">create new contact</string>
+    <string name="contact_app">Contact App</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="name">Name</string>
+    <string name="contact_number">Contact number</string>
+    <string name="enter_website">Enter website</string>
+    <string name="enter_location">Enter location</string>
+    <string name="todo">TODO</string>
+    <string name="enter_contact_number">Enter contact number</string>
+</resources>
