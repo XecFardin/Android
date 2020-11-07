@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/hint_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/hint_tel"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnSubmit"
+        android:text="@string/btn_submit" />
+
+    <Button
+        android:id="@+id/btnshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnShowData"
+        android:text="@string/Show_data" />
+
+    <Button
+        android:id="@+id/btnedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnEditData"
+        android:text="@string/edit_data" />
+
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnDeleteData"
+        android:text="@string/delete_data" />
+</LinearLayout>
